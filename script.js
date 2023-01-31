@@ -1,16 +1,14 @@
 function convertToRoman(num) {
   	const obj = {
+	const obj = {
       0:['M',1000], 
       1:['D', 500], 
       2:['C', 100], 
-      3:['L', 50], 
-      4:['X', 10], 
-      5:['V', 5], 
-      6:['I', 1]
+@@ -10,25 +10,83 @@ function convertToRoman(num) {
     };
 
   //your code here
-	 let romanNum = "";
+  let romanNum = "";
   const strNum = String(num);
   const romans = {
       1: ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"], // ones
